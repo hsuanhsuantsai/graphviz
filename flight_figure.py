@@ -109,6 +109,6 @@ if __name__ == '__main__':
 	if len(sys.argv) == 4:
 		generate_figure(sys.argv[1], sys.argv[2], sys.argv[3])
 	else:
-		print('Usage: python flight_figure <input_filename> <output_filename> <figure_label>')
+		print('Usage: python flight_figure.py <input_filename> <output_filename> <figure_label>')
 
 ###EOF		
